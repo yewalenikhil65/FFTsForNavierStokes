@@ -10,9 +10,10 @@ Journal of Fluid Mechanics, [LAURA K. BRANDT and KEIKO K. NOMURA, The physics of
 - Non-robust
 - Needs rigourous validation
 
-## Download Julia from official Julia Programming language website
+## Steps to proceed
+#### Download Julia from official Julia Programming language website
 
-## Add necessary packages as dependency (FFTW.jl, Plots.jl, LazyGrids.jl)
+#### Add necessary packages as dependency (FFTW.jl, Plots.jl, LazyGrids.jl)
 ```julia
 using Pkg
 Pkg.add("Plots.jl")
@@ -21,11 +22,11 @@ Pkg.add("FFTW.jl")
 ```
 This should take a while for the first time.
 
-## run following bash command to go to appropriate directory
+#### run following bash command to go to appropriate directory
 ```bash
 cd /path_to_folder/FFTsForNavierStokes
 ```
-## run following bash command to go to run julia-script for generating results
+#### run following bash command to go to run julia-script for generating results
 ```bash
 julia src/run.jl
 ```
@@ -36,4 +37,4 @@ julia src/postprocess.jl
 ```
 
 
-## change input parameters to play with the code!
+#### change input parameters to play with the code!
