@@ -1,5 +1,7 @@
 # FFTsForNavierStokes
-Code based on a course project (CM501) at IIT Bombay. Course Instructor : [Prof. S. Ravichandran](https://www.climate.iitb.ac.in/en/employee-profile/prof-s-ravichandran)
+Code based on a course project ([CM501, Advanced Computational Methods 
+for 
+Turbulent Incompressible Flow](https://sites.google.com/view/iitb-sravichandran/teaching/cm501)) at IIT Bombay. Course Instructor : [Prof. S. Ravichandran](https://www.climate.iitb.ac.in/en/employee-profile/prof-s-ravichandran)
 
 The repository contains a 2D FFT based pseudospectral code written in Julia language for simulating vortex-merger of two co-rotating gaussian vortices inspired from the journal paper in 
 Journal of Fluid Mechanics, [LAURA K. BRANDT and KEIKO K. NOMURA, The physics of vortex merger and the effects of ambient stable stratification](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/physics-of-vortex-merger-and-the-effects-of-ambient-stable-stratification/E4355A389F2F13798B7290A5B50C2A15)
