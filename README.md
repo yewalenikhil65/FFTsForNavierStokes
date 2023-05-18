@@ -1,9 +1,9 @@
 # FFTsForNavierStokes
-Code based on a course project (CM501) at IIT Bombay 
+Code based on a course project (CM501) at IIT Bombay. Course Instructor : [Prof. S. Ravichandran](https://www.climate.iitb.ac.in/en/employee-profile/prof-s-ravichandran)
 
-# Download Julia from official Julia Programming language website
+## Download Julia from official Julia Programming language website
 
-# Add necessary packages as dependency (FFTW.jl, Plots.jl, LazyGrids.jl)
+## Add necessary packages as dependency (FFTW.jl, Plots.jl, LazyGrids.jl)
 ```julia
 using Pkg
 Pkg.add("Plots.jl")
@@ -12,11 +12,11 @@ Pkg.add("FFTW.jl")
 ```
 This should take a while for the first time.
 
-# run following bash command to go to appropriate directory
+## run following bash command to go to appropriate directory
 ```bash
 cd /path_to_folder/FFTsForNavierStokes
 ```
-# run following bash command to go to run julia-script for generating results
+## run following bash command to go to run julia-script for generating results
 ```bash
 julia src/run.jl
 ```
@@ -27,4 +27,4 @@ julia src/postprocess.jl
 ```
 
 
-#change input parameters to play with the code!
+## change input parameters to play with the code!
